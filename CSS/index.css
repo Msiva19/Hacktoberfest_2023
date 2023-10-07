@@ -520,6 +520,11 @@ a{
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
+
+.contact-form .input-block:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: #007bff;
+}
 .contact-form .input-block.focus {
   background-color: #fff;
   border: solid 1px #fb2900;
@@ -558,6 +563,7 @@ a{
   z-index: 2;
   font-size: 18px;
   color: #333;
+  translate: -2% -30%;
 }
 .contact-form .input-block .form-control:focus label {
   top: 0;
